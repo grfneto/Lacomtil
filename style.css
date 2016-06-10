@@ -1,0 +1,191 @@
+* {
+	background-color: #D9D9D9;
+}
+
+.navbar {
+	border-top-left-radius: 0px; /*as bordas eram um pouco arredondadas, assim ficam quadradas*/
+	border-bottom-left-radius: 0px;
+	border-top-right-radius: 0px;
+	border-bottom-right-radius: 0px;
+	margin-bottom: 0 !important;
+	position: relative;
+	z-index: 1;
+	height: 70px;
+}
+.navbar-la {
+	background-color: #D9D9D9;
+}
+
+.navbar-brand {
+	margin-top: -10px;
+}
+
+.slogan {
+	padding-top: 11px;
+	color: #7A647F;
+	font-family: "Comfortaa";
+	padding-right: 160px;
+	text-align: center;
+}
+
+.btn-nav {
+	margin-top: 16px;
+	color: white;
+	font-family: "Comfortaa";
+	text-align: center;
+	background-color: #7A647F;
+}
+
+.btn-nav:hover {
+	color: white;
+	font-weight: bold;
+}
+
+.btn-nav a:active, .btn-nav a:visited {
+	color: white;
+}
+
+.form-control {
+	border-color: #7A647F;
+	font-family: "Arial";
+	text-transform: uppercase;
+	font-size: 10px;
+	color: #B7B7B7;
+	text-align: center;
+	font-style: italic;
+}
+
+#navBarSearchForm input[type=text] {
+	width: 310px !important; /*largura da barra de pesquisa*/
+	height: 34px !important; /*altura da barra de pesquisa*/
+}
+
+.pesquisa {
+	margin-top: 16px;
+	padding-right: 140px;
+	padding-top: 1px;
+ 	font-size: 0px; /*removes whitespace between button and input*/
+}
+
+.btn-pesquisa {
+	border-color: #7A647F;
+	color: #7A647F;
+	border-top-left-radius: 0px;
+	border-bottom-left-radius: 0px;
+	margin-left: -10px;
+	height: 34px !important;
+}
+
+.btn-nav-login {
+	margin-right: -465px;
+	float: right;
+	margin-top: 16px;
+	color: white;
+	font-family: "Comfortaa";
+	text-align: center;
+	background-color: #7A647F;
+}
+
+.btn-nav-login:hover {
+	color: white;
+	font-weight: bold;
+}
+
+.btn-nav-login a:active, .btn-nav-login a:visited {
+	color: white;
+}
+
+.separador-superior {
+	margin-left: -90px;
+	text-align: left;
+	color: #726178;
+	font-size: 20px;
+	font-family: "Comfortaa";
+	font-weight: bold;
+	letter-spacing: 10px;
+	width: 100%;
+}
+
+.separador-inferior {
+	margin-top: 450px;
+	margin-left: -90px;
+	text-align: left;
+	color: #726178;
+	font-size: 20px;
+	font-family: "Comfortaa";
+	font-weight: bold;
+	letter-spacing: 10px;
+	width: 100%;
+}
+
+.separador-lateral {
+	position:absolute;
+	left: 80.2%;
+  	width:20px;
+  	word-wrap: break-word;
+  	text-align:center;
+  	line-height:20px;
+	color: #726178;
+	font-size: 20px;
+	font-family: "Comfortaa";
+	font-weight: bold;
+	letter-spacing: 10px;
+	margin-top: -495px;
+}
+
+.botao-superior {
+	float: right;
+	margin-right: -55px;
+	margin-top: -450px;
+	text-transform: uppercase;
+	text-decoration: none;
+}
+
+.botao-superior p {
+	max-width: 90px;
+	text-align: center;
+	font-family: "Amatic SC";
+	font-size: 25px;
+	color: white;
+	background-color: #7A647F;
+	position: absolute;
+	margin-top: -115px;
+	margin-left: 40px;
+}
+
+.botao-superior p:hover {
+	font-weight: bold;
+}
+
+.botao-inferior {
+	float: right;
+	margin-right: -55px;
+	margin-top: -230px;
+	text-transform: uppercase;
+	text-decoration: none;
+}
+
+.botao-inferior p {
+	max-width: 120px;
+	text-align: center;
+	font-family: "Amatic SC";
+	font-size: 25px;
+	color: white;
+	background-color: #7A647F;
+	position: absolute;
+	margin-top: -114px;
+	margin-left: 29px;
+}
+
+.botao-inferior p:hover {
+	font-weight: bold;
+}
+
+.titulo {
+	color: #7A647F; 
+	text-transform: uppercase;
+	font-family: "Amatic SC";
+	font-size: 30px;
+	margin-top: -490px;
+	margin-left: -70px;
+}
