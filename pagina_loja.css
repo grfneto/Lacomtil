@@ -1,0 +1,100 @@
+
+#titulo {
+	font-family: "Comfortaa";
+	color: #94428A;
+	padding-bottom: 3%;
+}
+
+#descricao {
+	font-family: "Comfortaa";
+	font-size: 16px;
+	color: #94428A;
+	padding-left: 3%;
+	text-indent: justify;
+}
+
+#trends {
+	font-family: "Comfortaa";
+	font-size: 16px;
+	color: #94428A;
+	padding-left: 8%;
+	text-indent: justify;
+}
+
+#trends a, #contato a, #tabela a {
+	margin-right: 4%;
+	text-decoration: none;
+	color: #94428A;
+}
+
+#trends a:hover, #contato a:hover, #tabela a:hover, #titulo_dir a:hover, #ver_mais a:hover {
+	font-weight: bold;
+}
+
+#contato {
+	font-family: "Comfortaa";
+	font-size: 16px;
+	color: #94428A;
+	padding-left: 13%;
+	text-indent: justify;
+}
+
+#tabela {
+	font-family: "Comfortaa";
+	font-size: 16px;
+	color: #94428A;
+	padding-left: 18%;
+	text-indent: justify;
+	margin-bottom: 7%;
+}
+
+#mapa {
+	padding-left: 23%;
+}
+
+.info {
+	text-align: left;
+}
+
+#titulo_dir {
+	margin-right: 27%;
+	font-family: "Comfortaa";
+	color: #94428A;
+}
+
+#titulo_dir a {
+	text-decoration: none;
+	color: #94428A;
+}
+
+.conteudo {
+	text-align: right;
+}
+
+.conteudo ul {
+	list-style: none;
+	margin-bottom: 3%;
+}
+
+.conteudo li {
+	display: inline;
+}
+
+.conteudo .roupas {
+	margin-right: 4%;
+	width: 13%;
+	height: 13%;
+}
+
+#ver_mais {
+	margin-right: 4%;
+	font-family: "Comfortaa";
+	color: #94428A;
+}
+
+#ver_mais a {
+	text-decoration: none;
+	color: #94428A;
+}
+
+

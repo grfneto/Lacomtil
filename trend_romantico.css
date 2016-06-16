@@ -1,0 +1,66 @@
+
+#titulo {
+	font-family: "Comfortaa";
+	text-align: center;
+	color: #94428A;
+	padding-bottom: 3%;
+	margin-right: 17%;
+}
+
+.conteudo {
+	text-align: center;
+}
+
+.conteudo ul {
+	list-style: none;
+	margin-bottom: 3%;
+}
+
+.conteudo li {
+	display: inline;
+}
+
+.conteudo .roupas {
+	margin-right: 4%;
+	width: 19%;
+	height: 19%;
+}
+
+.conteudo a:hover {
+	opacity: 0.5;
+}
+
+#lateral {
+	border-style:solid;
+	border-width:1px;
+	border-radius:10px;
+	border-color:#94428a;
+	margin-left:0;
+	margin-top:-50%;
+	color:#94428a;
+	text-decoration:none;
+	font-family: "Comfortaa";
+}
+
+#lateral .widget-content {
+	background-color:transparent;
+	margin-bottom:20%;
+}
+
+#lateral span a:hover{
+	border-style:solid;
+	border-width:1px;
+	border-radius:10px;
+	border-color:#94428a;
+}
+
+#lateral h1 {
+	margin-top:10%;
+}
+
+#lateral a {
+	font-size:200%;
+	text-decoration:none;
+	color:#94428a;
+}
+

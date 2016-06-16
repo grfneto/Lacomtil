@@ -1,0 +1,30 @@
+
+#titulo {
+	font-family: "Comfortaa";
+	text-align: center;
+	color: #94428A;
+	padding-bottom: 3%;
+}
+
+.conteudo {
+	text-align: center;
+}
+
+.conteudo ul {
+	list-style: none;
+	margin-bottom: 3%;
+}
+
+.conteudo li {
+	display: inline;
+}
+
+.conteudo .logo_lojas {
+	margin-right: 4%;
+	width: 13%;
+	height: 13%;
+}
+
+.conteudo a:hover {
+	opacity: 0.5;
+}
