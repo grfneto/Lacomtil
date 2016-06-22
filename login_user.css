@@ -1,0 +1,139 @@
+.barra_pesquisa {
+	margin-left: -13%;
+	margin-right: 4%;
+}
+
+.slogan {
+	margin-right: 15%;
+}
+.login {
+	margin-left: -3%;
+}
+
+.saudacao {
+	margin-top: 1.4%;
+	text-align: center;
+	margin-left: -2%;
+	color: #94428a;
+	font-family: "Comfortaa";
+}
+
+.trends {
+	margin-left: 6%;
+}
+
+.trends li a {
+	text-decoration: none;
+	color: #94428a;
+	line-height: 250%;
+	text-align: center;
+	padding: 3px;
+}
+
+.trends li a:hover {
+	opacity: 0.8;
+	border-style:solid;
+	border-width:1px;
+	border-radius:10px;
+	border-color:#94428a;
+}
+
+
+.titulo {
+	font-size: 40px;
+	font-family: "Comfortaa";
+	color: #94428a;
+	text-align: center;
+}
+
+ul {
+	margin-left: -45%;
+	list-style: none;
+	text-align: center;
+}
+
+.col1, .col2 {
+	margin-top: 3%;
+	margin-right: 12%;
+	text-align: center;
+	font-family: "Comfortaa";
+	color: #94428a;
+	font-size: 20px;
+	text-align: center;
+}
+
+.col3 {
+	margin-top: 3%;
+	font-family: "Comfortaa";
+	color: #94428a;
+	font-size: 20px;
+	text-align: center;
+}
+
+.conteudo .titulo_dir {
+	text-decoration: none;
+}
+
+.titulo_dir {
+	text-decoration: none;
+	font-size: 40px;
+	margin-bottom: 5%;
+	margin-right: 3%;
+	font-family: "Comfortaa";
+	color: #94428A;
+}
+
+.conteudo {
+	margin-left: 15%;
+	text-align: right;
+}
+
+.conteudo ul {
+	margin-right: -60%;
+	/*margin-left: 20%;*/
+	list-style: none;
+	margin-bottom: 3%;
+}
+
+.conteudo li {
+	display: inline;
+}
+
+.conteudo .roupas {
+	margin-right: 4%;
+	width: 10%;
+	height: 10%;
+}
+
+
+.conteudo2 {
+	margin-left: 22%;
+	text-align: center;
+}
+
+.conteudo2 ul {
+	list-style: none;
+	margin-bottom: 3%;
+}
+
+.conteudo2 li {
+	display: inline;
+}
+
+.conteudo2 .roupas {
+	margin-right: 4%;
+	width: 7%;
+	height: 7%;
+}
+
+
+.titulo3 {
+	margin-top: 5%;
+	text-align: center;
+	text-decoration: none;
+	font-size: 40px;
+	margin-bottom: 2%;
+	margin-right: 3%;
+	font-family: "Comfortaa";
+	color: #94428A;
+}

@@ -2,11 +2,11 @@
 <html lang="en">
 
 <head>
-	<title>lã | Home</title>
+	<title>lã</title>
 	<link rel="icon" type="image/png" href="img/la.ico" />
 	<link rel="stylesheet" type="text/css" href="https://fonts.googleapis.com/css?family=Comfortaa" />
 	<link rel="stylesheet" media="screen" href="https://fontlibrary.org/face/grand-hotel" type="text/css"/>
-	<link rel="stylesheet" type="text/css" href="la.css">
+	<link rel="stylesheet" type="text/css" href="login.css">
 	<!-- Latest compiled and minified CSS -->
 	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css" integrity="sha384-1q8mTJOASx8j1Au+a5WDVnPi2lkFfwwEAa8hDDdjZlpLegxhjVME1fgjWPGmkzs7" crossorigin="anonymous">
 	<!-- Optional theme -->
@@ -21,7 +21,8 @@
 		<div class="row">
 			<nav class="navbar">
 	   			<div class="navbar-header">
-	      			<a href="index.html"><img src="img/la.png" height=70px></a>
+
+	      			<a href="paginainicial.html"><img class="logo" src="img/la.png" height=70px></a>
 	    		</div>
 				<div class="collapse navbar-collapse" id="bs-example-navbar-collapse-2">
 					<div class="col-md-2 slogan">Bordando um mapa para a moda</div>
@@ -34,18 +35,20 @@
 								</ul> 
 							</div>
 						</div>
+
+				
 				<div class="col-md-4 barra_pesquisa">
 	       			<form class="navbar-form navbar-right pesquisa" role="search" id="navBarSearchForm">
 	        			<div class="form-group">
 	          					<input type="text" class="form-control" placeholder="#pesquiseaqui">
 	        			</div>
-	        				<button type="submit" class="btn btn-pesquisa"><span class="glyphicon glyphicon-search" aria-hidden="true"></button>
+	        				<a href="trend_geometrico.html" type="submit" class="btn btn-pesquisa"><span class="glyphicon glyphicon-search" aria-hidden="true"></a></button>
 	   				</form>
 	 		    </div>
 	      		<div class="col-md-1 login">
 	      			<div id="barra">
 	      				<ul class="nav nav-pills">
-	  						<li role="presentation"><a href="#">login</a></li>
+	  						<li role="presentation"><a href="login.html">login</a></li>
 						</ul> 
 					</div>
 				</div>
@@ -55,39 +58,49 @@
 		<div class="row">
 			<img src="img/separador.png" width=100%>
 		</div> <!-- row -->
-		<div class="row">
-			<div class="col-md-9 centro">
-				<h1>Encontre lojas próximas a você!</h1>
-   				<iframe src="https://www.google.com/maps/embed?pb=!1m10!1m8!1m3!1d15801.80491594998!2d-34.96274724452294!3d-8.055369688812895!3m2!1i1024!2i768!4f13.1!5e0!3m2!1spt-BR!2sbr!4v1465665901995" width="100%" height="600px" frameborder="0" style="border:0" allowfullscreen></iframe>
-			</div>
-			<div class="col-md-2">
-				<div id="lateral">
-					<h1>Trends</h1>
-						<div class="widget-content cloud-label-widget-content">
-							<span class="label-size label-size-4">
-								<a dir="ltr" href="#">#cinema</a>
-								<a dir="ltr" href="#">#rock</a>
-								<a dir="ltr" href="trend_geometrico.html">#geométrico</a>
-								<a dir="ltr" href="#">#black</a>
-								<a dir="ltr" href="#">#toyart</a>
-								<a dir="ltr" href="#">#música</a>
-								<a dir="ltr" href="#">#gótico</a>
-								<a dir="ltr" href="#">#indie</a>
-								<a dir="ltr" href="trend_romantico.html">#romântico</a>
-								<a dir="ltr" href="#">#tv</a>
-								<a dir="ltr" href="#">#cropped</a>
-								<a dir="ltr" href="#">#jeans</a>
-							</span>
-						<div class="clear"></div>
-						</div>
-				</div>
-			</div>
-		</div>
+		<h1 id="acesso">Acesso Lã</h1>
+
+		<form class="form-horizontal">
+		  <div class="form-group" id="login">
+		    <label for="inputEmail3" class="col-sm-2 control-label">Login</label>
+		    <div class="col-sm-10">
+		      <input type="email" class="form-control" id="inputEmail3" placeholder="exemplo@lacomtil.com">
+		    </div>
+		  </div>
+		  <div class="form-group" id="senha">
+		    <label for="inputPassword3" class="col-sm-2 control-label">Senha</label>
+		    <div class="col-sm-10">
+		      <input type="password" class="form-control" id="inputPassword3" placeholder="******">
+		    </div>
+		  </div>
+		  <div class="form-group">
+		    <div class="col-sm-offset-2 col-sm-10">
+		      <div class="checkbox" id="lembrar">
+		        <label id="label">
+		          <input type="checkbox"> Lembrar acesso
+		        </label>
+		      </div>
+		    </div>
+		  </div>
+		  <div class="form-group" id="form-b">
+		    <div class="col-sm-offset-2 col-sm-10">
+		      
+		       		<a class="btn" href="login_user.html">Entrar</a>
+		       		<!-- <button type="submit" class="btn btn-default"></button> -->
+		       
+		       <!-- <button> <a href="login_user.html" type="submit" class="btn btn-default">Entrar</button></a> -->
+		    </div>
+		  </div>
+		</form>
+
 		<div class="row">
 			<img src="img/separador.png" width=100%>
 		</div> <!-- row -->
-		<div id="rodape"><div class="row">
-			<a href="#"><img src="img/la.png" height=50px>contato</a></div> <!-- row -->
+		<div id="rodape">
+			<div class="row">
+			<img src="img/la.png" height=50px>
+			<a href="mailto:lacomtil@gmail.com">lacomtil@gmail.com</a>
+			</div> 
 		</div>
 </body>
 </html>

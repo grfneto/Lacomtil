@@ -35,8 +35,9 @@
 	border-width:1px;
 	border-radius:10px;
 	border-color:#94428a;
-	margin-left:0;
-	margin-top:-50%;
+	margin-left:-50%;
+	margin-right: 50%;
+	margin-top: 30%;
 	color:#94428a;
 	text-decoration:none;
 	font-family: "Comfortaa";

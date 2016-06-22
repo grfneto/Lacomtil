@@ -1,0 +1,153 @@
+	*{
+		background-color: #D9D9D9;
+	}
+	.navbar .col-md-2{
+		line-height: 110%;
+		margin-top: 1.3%;
+		margin: transparent;
+		background-color: transparent; 
+		text-align: center;
+		color: #94428a;
+		font-family: "Comfortaa";
+		font-size: 140%;
+		font-weight:bold;	
+	}
+
+	.form-horizontal{
+		margin: 0px;
+		padding-right: 400px;
+		padding-left: 400px;
+	}
+
+	.slogan {
+		margin-right: 6%;
+	}
+
+	
+	#acesso {
+		margin: 0px;
+		text-align: center;
+		color: #94428a;
+		font-family: "Comfortaa";
+		font-size: 200%;
+		font-weight:bold;
+		padding-top: 20px;
+		padding-bottom: 20px;
+		
+	}
+
+	#label {
+		margin-bottom: 0px;
+		
+	}
+
+	.partedir {
+		margin-right: -5%;
+	}
+
+	#form-b{
+		
+		margin-bottom: 0px;
+		padding-bottom: 10px;
+		color: #94428a;
+		font-family: "Comfortaa";
+
+	}
+
+	#login, #senha, #lembrar{
+		color: #94428a;
+		font-family: "Comfortaa";
+	}
+
+
+	.navbar-header img{
+		margin-left: 30%;
+		margin-top: 10%;
+		float:left;
+	}
+	
+	#barra{
+		margin-top: 3.7%;
+		background-color: transparent;
+		float: left;
+		font-size: 20px;
+	}
+	#barra a:hover{
+		background-color: #94428a;
+		color: white;
+	}
+	#barra a{
+		height: 45px;
+		font-family: "Comfortaa";
+		text-decoration: none;
+		color: #94428a;
+	}
+
+	#rodape{
+		text-align: center;
+		padding-top: 80px;
+	}
+	#rodape a{
+		padding:1% 1%;
+		font-family: "Comfortaa";
+		text-decoration: none;
+		color: gray;
+		-webkit-filter: grayscale(100%);
+		filter: grayscale(100%);
+	}
+	#rodape a:hover{
+		-webkit-filter: grayscale(0%);
+		filter: grayscale(0%);
+		color: #94428a;
+	}
+
+	.barra_pesquisa {
+		margin-top: 1.2%;
+	}
+
+	#navBarSearchForm input[type=text] {
+		width: 300px !important; /*largura da barra de pesquisa*/
+		height: 34px !important; /*altura da barra de pesquisa*/
+	}
+	.pesquisa {
+		padding-top: 1px;
+	 	font-size: 0px; /*removes whitespace between button and input*/
+	}
+
+	.btn-pesquisa {
+		height: 33px !important;
+	}
+
+	.login {
+		margin-top: 1.0%;
+	}
+
+
+	#login li{
+		background-color: transparent;
+	}
+	#login a:hover{
+		background-color: #94428a;
+		color: white;
+	}
+	#login a{
+		height: 45px;
+		font-family: "Comfortaa";
+		text-decoration: none;
+		color: ;
+	}
+	.btn{
+		background-color: #F8F8F8;
+		color:#94428a;
+		border-style: solid;
+		border-color: #94428a;
+	}
+	.btn:hover{
+		background-color: #F8F8F8;
+		color:#94428a;
+		border-style: solid;
+		border-color: #94428a;
+	}
+
+		
+	
